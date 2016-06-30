@@ -1,0 +1,18 @@
+
+.top-bar, .top-bar ul{
+  background-color: $nav-background;
+  }
+
+  .top-bar {
+    .menu-text, {
+      color: #cb4045;
+    }
+    .menu-text a {
+      color: #cb4045;
+      display: inline;
+      padding: 0;
+    }
+    .active-link {
+      font-weight: bold;
+    }
+  }

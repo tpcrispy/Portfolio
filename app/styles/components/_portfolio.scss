@@ -1,0 +1,119 @@
+#app{
+  background-color: #eee;
+}
+.MySite {
+  text-align: center;
+}
+
+
+.PortText {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  text-decoration: dashed ;
+}
+
+
+.WelcomeText{
+  color: #cb4045;
+  font-family: 'Lato','Helvetica Neue','Arial',sans-serif;
+  font-size: 35px;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.WelcomeText2{
+  color: #cb4045;
+  font-family: 'Lato','Helvetica Neue','Arial',sans-serif;
+  font-size: 55px;
+  text-align: center;
+
+}
+
+.Hey {
+  color: $nav-background;
+
+}
+
+.Hey1{
+  font-size: 25px;
+  padding-top: 5px;
+  text-align: center;
+  font-family: 'Lato','Helvetica Neue','Arial',sans-serif;
+}
+
+.Hey2{
+  font-size: 25px;
+  padding-top: -25px;
+  text-align: center;
+  font-family: 'Lato','Helvetica Neue','Arial',sans-serif;
+}
+
+
+.aboutme {
+background-color: #eee;
+height: 100%;
+}
+
+.AboutMeMain {
+
+}
+
+.small-text {
+  font-size: 15px;
+}
+
+.portButton {
+  margin-top: 200px;
+  margin-left: auto;
+}
+
+.appText {
+  text-align: center;
+  font-family: 'Lato','Helvetica Neue','Arial',sans-serif;
+  font-size: 25px;
+  color: #cb4045;
+
+}
+.appText2 {
+  text-align: left;
+  font-family: 'Lato','Helvetica Neue','Arial',sans-serif;
+  font-size: 25px;
+  color: #cb4045;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+
+.appDis {
+  text-align: left;
+  font-family: 'Lato','Helvetica Neue','Arial',sans-serif;
+  font-size: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.appSkills li {
+  padding-top: -15px;
+display: block;
+font-size: 125%;
+margin: 0 3px;
+}
+
+
+.cont1 {
+  padding-top: 50px;
+  width: 99%;
+  display: block;
+  position: absolute;
+  margin: auto;
+  .button:first-child {
+    &:hover {
+      background-color: #3adb76;
+    }
+  }
+  .button:last-child {
+    &:hover {
+      background-color: #2199e8;
+    }
+  }
+}
