@@ -81,7 +81,7 @@ var PortNav = React.createClass({
                    </ul>
                 </nav>
             </div>
-            <br></br>
+            <hr></hr>
               { this.state.ReactCom    ? <ReactGrid />    : null }
               { this.state.HTMLCom     ? <HtmlGrid />     : null }
               { this.state.NodeCom     ? <NodeGrid />     : null }

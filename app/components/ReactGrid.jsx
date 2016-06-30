@@ -34,7 +34,7 @@ var ReactGrid = React.createClass({
                 <div className="container ">
                   <h2 className="appText">About the App:</h2>
                   <h5 className="appDis">A simple Todo App made with React - it allows users to
-                    create tasks, delete and set as completed.</h5>
+                    create, delete, set as completed and search tasks.</h5>
                   <h2 className="appText2">The Skills I used:</h2>
                   <ul className="appSkills">
                     <li>React</li>
