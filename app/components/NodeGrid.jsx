@@ -2,6 +2,7 @@ var React = require('react');
 var Modal = require('boron/OutlineModal');
 
 
+
 var modalStyle = {};
 var backdropStyle = {};
 var contentStyle = {
@@ -12,12 +13,18 @@ var contentStyle = {
 var ReactGrid = React.createClass({
 
   showModal: function() {
-        this.refs.modal.show();
+        this.refs.modal1.show();
     },
-    showModal1: function() {
-          this.refs.modal1.show();
-      },
-    hideModal: function() {
+  showModal2: function() {
+          this.refs.modal2.show();
+    },
+  showModal3: function() {
+            this.refs.modal3.show();
+    },
+  showModal4: function() {
+              this.refs.modal4.show();
+    },
+  hideModal: function() {
         this.refs.modal.hide();
     },
 
@@ -25,11 +32,11 @@ var ReactGrid = React.createClass({
     return (
       <div className="row small-up-2 medium-up-3 large-up-4 PortPhotos">
         <div className="column text-center">
-          <img className="thumbnail" src="http://placehold.it/300x300" onClick={this.showModal1} />
-            <h3>Node</h3>
-            <h3 className="small-text">(ReactJS)</h3>
+          <img className="thumbnail" src={"app/Assets/Todo.jpg"} onClick={this.showModal} />
+            <h3>1</h3>
+
               <Modal ref="modal1" modalStyle={modalStyle} backdropStyle={backdropStyle} contentStyle={contentStyle}>
-                <h2 className="text-center WelcomeText2">Node</h2>
+                <h2 className="text-center WelcomeText2">1</h2>
                 <hr></hr>
                 <div className="container ">
                   <h2 className="appText">About the App:</h2>
@@ -55,11 +62,11 @@ var ReactGrid = React.createClass({
 
 
         <div className="column text-center">
-          <img className="thumbnail" src="http://placehold.it/300x300" onClick={this.showModal} />
-            <h3>Node</h3>
-            <h3 className="small-text">(ReactJS)</h3>
-              <Modal ref="modal" modalStyle={modalStyle} backdropStyle={backdropStyle} contentStyle={contentStyle}>
-                <h2 className="text-center WelcomeText2">Node</h2>
+          <img className="thumbnail" src="http://placehold.it/300x300" onClick={this.showModal2} />
+            <h3>2</h3>
+
+              <Modal ref="modal2" modalStyle={modalStyle} backdropStyle={backdropStyle} contentStyle={contentStyle}>
+                <h2 className="text-center WelcomeText2">2</h2>
                   <h2>The skills:</h2>
                   <h2>I am a dialog</h2>
                   <h2>I am a dialog</h2>
@@ -72,11 +79,11 @@ var ReactGrid = React.createClass({
 
 
             <div className="column text-center">
-              <img className="thumbnail" src="http://placehold.it/300x300" onClick={this.showModal} />
-              <h3>Node</h3>
-              <h3 className="small-text">(ReactJS)</h3>
-              <Modal ref="modal" modalStyle={modalStyle} backdropStyle={backdropStyle} contentStyle={contentStyle}>
-                <h2 className="text-center WelcomeText2">Node</h2>
+              <img className="thumbnail" src="http://placehold.it/300x300" onClick={this.showModal3} />
+              <h3>3</h3>
+
+              <Modal ref="modal3" modalStyle={modalStyle} backdropStyle={backdropStyle} contentStyle={contentStyle}>
+                <h2 className="text-center WelcomeText2">3</h2>
                   <h2>I am a dialog</h2>
                   <h2>I am a dialog</h2>
                   <h2>I am a dialog</h2>
@@ -89,11 +96,11 @@ var ReactGrid = React.createClass({
 
 
           <div className="column text-center">
-            <img className="thumbnail" src="http://placehold.it/300x300" onClick={this.showModal} />
-            <h3>Node</h3>
-            <h3 className="small-text">(ReactJS)</h3>
-            <Modal ref="modal" modalStyle={modalStyle} backdropStyle={backdropStyle} contentStyle={contentStyle}>
-              <h2 className="text-center WelcomeText2">Node</h2>
+            <img className="thumbnail" src="http://placehold.it/300x300" onClick={this.showModal4} />
+            <h3>4</h3>
+
+            <Modal ref="modal4" modalStyle={modalStyle} backdropStyle={backdropStyle} contentStyle={contentStyle}>
+              <h2 className="text-center WelcomeText2">4</h2>
                 <h2>I am a dialog</h2>
                 <h2>I am a dialog</h2>
                 <h2>I am a dialog</h2>
