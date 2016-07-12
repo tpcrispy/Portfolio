@@ -61,7 +61,7 @@ var ReactGrid = React.createClass({
 
 
         <div className="column text-center">
-          <img className="thumbnail" src="http://placehold.it/300x300" onClick={this.showModal2} />
+          <img className="thumbnail" src="https://i.imgur.com/x5NgK4N.jpg" onClick={this.showModal2} />
             <h3>2</h3>
 
               <Modal ref="modal2" modalStyle={modalStyle} backdropStyle={backdropStyle} contentStyle={contentStyle}>
