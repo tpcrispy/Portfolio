@@ -23,9 +23,10 @@ var PortNav = React.createClass({
             <div className="nav">
                <nav>
                    <ul>
+
                         <li className={this.state.lang=='React'?'true':'false'} onClick={() => this.setLang('React')}><a href="#/"><span className="colorPort">React.JS</span></a></li>
                         <li className={this.state.lang=='HTML'?'true':'false'} onClick={() => this.setLang('HTML')}><a href="#/"><span className="colorPort">HTML+CSS</span></a></li>
-                        <li className={this.state.lang=='Node'?'true':'false'} onClick={() => this.setLang('Node')}><a href="#/"><span className="colorPort">Node.JS</span></a></li>
+                        <li className={this.state.lang=='Node'?'true':'false'} onClick={() => this.setLang('Node')}><a href="#/"><span className="colorPort">Other</span></a></li>
                         <li className={this.state.lang=='Angular'?'true':'false'} onClick={() => this.setLang('Angular')}><a href="#/"><span className="colorPort">Angular.JS</span></a></li>
                    </ul>
                 </nav>

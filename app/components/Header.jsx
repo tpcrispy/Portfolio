@@ -8,7 +8,7 @@ var Header = () => {
           <img className="PortPhoto" src="https://avatars3.githubusercontent.com/u/16110091?v=3&s=460"/>
          </div>
          <div className="container text-center large-8 Head">
-           <h3 className="HeaderText">Thomas Smith - .</h3>
+           <h3 className="HeaderText">Thomas Smith - jr Web Developer.</h3>
          </div>
 
 

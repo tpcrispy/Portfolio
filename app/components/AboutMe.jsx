@@ -1,5 +1,6 @@
 var React = require('react');
 
+
 var AboutMe = () => {
   return (
     <div className="row  AboutMeMain">
@@ -18,16 +19,12 @@ var AboutMe = () => {
      <div className=" expanded aboutMeContact">
        <h1 className="aboutMeContact">Contact Me </h1>
        <h1 className="aboutMeContact1">(if you feel like it...)</h1>
-       </div>
+      </div>
 
 
 
 
-
-
-
-
-</div>
+     </div>
   );
 }
 

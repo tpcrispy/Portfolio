@@ -40,19 +40,19 @@ var ReactGrid = React.createClass({
                 <div className="container ">
                   <h2 className="appText">About the App:</h2>
                   <h5 className="appDis">A simple Todo App made with React - it allows users to
-                    create tasks, delete and set as completed.</h5>
+                    create tasks, delete and set as completed. Users also have the ability to search Todos.</h5>
                   <h2 className="appText2">The Skills I used:</h2>
                   <ul className="appSkills">
-                    <li>React</li>
+                    <li>React.js</li>
                     <li>Moment JS</li>
-                    <li>Redux</li>
-                    <li>Firebase</li>
+                    <li>Foundation 6</li>
+                    <li>HTML 5 / SCSS</li>
                     <li>Webpack</li>
                   </ul>
                   <div className="container cont1">
                     <div className="expanded button-group">
-                      <a className=" success hollow button btn1">GITHUB</a>
-                      <a className=" hollow button ">Live Preview</a>
+                      <a className=" success hollow button btn1" target="_blank" href="https://github.com/tpcrispy/ReactTodo">GITHUB</a>
+                      <a className=" hollow button " target="_blank" href="http://thawing-shelf-88513.herokuapp.com/">Live Preview</a>
                     </div>
                   </div>
                 </div>
@@ -90,8 +90,8 @@ var ReactGrid = React.createClass({
 
 
             <div className="column text-center">
-              <img className="thumbnail" src="http://placehold.it/300x300" onClick={this.showModal3} />
-              <h3>3</h3>
+              <img className="thumbnail" src="http://i.imgur.com/lg7BW1V.png" onClick={this.showModal3} />
+              <h3>This Site</h3>
               <h3> </h3>
               <Modal ref="modal3" modalStyle={modalStyle} backdropStyle={backdropStyle} contentStyle={contentStyle}>
                 <h2 className="text-center WelcomeText2">3</h2>
@@ -115,7 +115,7 @@ var ReactGrid = React.createClass({
               <hr></hr>
               <div className="container ">
                 <h2 className="appText">About the App:</h2>
-                <h5 className="appDis">A application that lets users search youtube videos on the fly.</h5>
+                <h5 className="appDis">A application that lets users search youtube videos on the fly without needing to press search.</h5>
                 <h2 className="appText2">The Skills I used:</h2>
                 <ul className="appSkills">
                   <li>Bootstrap</li>
@@ -133,7 +133,9 @@ var ReactGrid = React.createClass({
               </div>
               </Modal>
             </div>
+        
       </div>
+
     );
   }
 });
